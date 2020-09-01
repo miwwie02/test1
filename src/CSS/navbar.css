@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    padding: 10px 4em;
+    background-color: #22C8FF;
+
+}
+
+.navbar a img{
+    width: 40px;
+    margin: 10px;
+}
+
+.navbar a{
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    
+}
